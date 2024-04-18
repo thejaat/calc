@@ -110,7 +110,7 @@ searchMovies(searchBar.value.trim().toLowerCase());
 // banner add
 setInterval(() => {
   document.getElementById('ad-container').style.display = 'block';
-}, 1500);
+}, 15000);
 
 // Redirect to a new website when the advertisement is clicked
 document.getElementById('ad-link').addEventListener('click', () => {
