@@ -114,7 +114,7 @@ setInterval(() => {
 
 // Redirect to a new website when the advertisement is clicked
 document.getElementById('ad-link').addEventListener('click', () => {
-  window.location.href = 'https://myshopprime.com/tif/wxfolge'; // Change this URL to your desired website
+  window.location.href = '#'; // Change this URL to your desired website
 });
 
 // X button for add
