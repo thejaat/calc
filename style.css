@@ -15,6 +15,12 @@ header {
 h1 {
   font-size: 2em;
 }
+/* credit card banner */
+.credit-card-add{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* telegram channel */
 .telegram-channel {
   text-align: center;
@@ -216,5 +222,8 @@ main {
       }
       #ad-container img {
         margin-top:40% ;
+      }
+      .credit-card-add{
+  width: 100vw;
       }
 }
