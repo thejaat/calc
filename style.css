@@ -39,24 +39,26 @@ h1 {
 }
 /* telegram ends here */
 
-nav {
-  display: flex;
+/* momix store starts here -- */
+
+.momix_store {
+  text-align: center;
+}
+.momix_store a {
+  color: red;font-weight: bold;text-decoration: none;
+  background: black;
+  display: block;
+  font-size: 2rem;
+  text-transform: capitalize;
+  margin: 1rem;
+  padding: 0.1em;
+}
+.telegram-channel a i {
+  font-size: 2rem;
 }
 
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 
-nav li {
-  margin-right: 20px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #333;
-}
+/*  momix store ends here */
 
 main {
   padding: 20px;
